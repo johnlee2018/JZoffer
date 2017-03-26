@@ -10,7 +10,7 @@
       TreeNode(int x) { val = x; }
   }
  
-public class Solution {
+class Solution {
 	
 	//private static TreeNode treeNode=null;
 	//static TreeNode root=null;
@@ -141,14 +141,14 @@ public class Solution {
 
 
 
-public class Solution1 {	///重建的另一种方法
+class Solution1 {	///重建的另一种方法
 	public TreeNode reConstructBinaryTree(int [] pre,int [] in) 
 	{
 		TreeNode root=reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);//启动
-		return root;    
+		return root;    
 		
 	}
-	//前序遍历{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}    
+	//前序遍历{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}    
 	private TreeNode reConstructBinaryTree(int [] pre,int startPre,int endPre,int [] in,int startIn,int endIn) 
 	{
 		if(startPre>endPre||startIn>endIn)

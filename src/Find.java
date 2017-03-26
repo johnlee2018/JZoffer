@@ -1,8 +1,7 @@
- 
 class Find
 {
 	/*
-	 * ´Ó¿ªÍ·µ½½áÎ²Ñ­»·²éÕÒ·¨ ¸´ÔÓ¶ÈÎªo(n^2)
+	 * ä»å¼€å¤´åˆ°ç»“å°¾å¾ªç¯æŸ¥æ‰¾æ³• å¤æ‚åº¦ä¸ºo(n^2)
 	 * 
 	 * */
     public static boolean Find2(int target, int [][] array) {
@@ -23,7 +22,7 @@ class Find
 		return !flag;
     }
 	/*
-	 * ´Ó¿ªÍ·µ½½áÎ²Ñ­»·²éÕÒ·¨ ¸´ÔÓ¶ÈÎªo(n^2)
+	 * ä»å¼€å¤´åˆ°ç»“å°¾å¾ªç¯æŸ¥æ‰¾æ³• å¤æ‚åº¦ä¸ºo(n^2)
 	 * 
 	 * */
 
@@ -46,7 +45,7 @@ class Find
 		return !flag;
     }
 	/*
-	 * BDËã·¨
+	 * BDç®—æ³•
 	 * 
 	 * */
 
@@ -62,4 +61,3 @@ class Find
     	System.out.println(Math.sqrt(ddata));
     }
 }
- 
